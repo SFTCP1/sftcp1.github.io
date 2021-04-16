@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Please Wait</title>
+	<style>
+	  body, html{
+	    background:#0000ff;
+		height:100%;
+		margin:0;
+		text-align:center
+	  }
+	  body:before{
+	    content:"";
+		display:inline-block;
+		vertical-align:middle;
+		height:100%;
+	  }
+	  .sftcp1 {
+	    width: 200px;
+		height: 200px;
+		vertical-align: middle;
+		animation: sftcp1-spin 1s infinite linear;
+	  }
+	  @keyframes sftcp1-spin {
+		0% {
+		  transform: rotate(0deg);
+		}
+		100% {
+		  transform: rotate(360deg);
+		}
+	  }  
+	</style>
+  </head>
+  <body>
+    <img class="sftcp1" src="sftcp1_1.png"></img>
+
+	<script>
+	  setTimeout(function(){ window.location.replace("https://www.youtube.com/SFTCP1Official"); }, 3000);
+	</script>
+  </body>
+</html>
